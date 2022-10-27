@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    width: 22em;
+    height: 35em;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.container .purple {
+    width: 50%;
+    background-color: rgb(102, 1, 102);
+}
+
+.container .yellow {
+    width: 50%;
+    background-color: yellow;
+}
+
+.container .yellow-cercle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    bottom: 10%;
+    left: 5%;
+}
+
+.container .purple-cercle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(102, 1, 102);
+    border-radius: 50%;
+    top: 10%;
+    right: 5%;
+    
+}
+
+.container .login {
+    position: absolute;
+    top: 19%;
+    left: 24%;
+    width: 11.2em;
+    height: 21.5em;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9e3e586;
+    box-shadow: rgb(0 0 0 / 40%) 0px 3px 6px;
+    border-radius: 10px;
+}
+
+.container .login h2 {
+    text-align: center;
+    color: rgb(102, 1, 102);
+    padding: 30px;
+    text-transform: capitalize;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.container .login form {
+    width: 11em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .login form input {
+    width: 12em;
+    height: 2em;
+    margin: 8px;
+    padding-left: 5px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.container .login form .submit {
+    width: 5em;
+    text-transform: capitalize;
+    background-color: purple;
+    color: yellow;
+    border: 2px solid purple;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.container .login a {
+    width: 5em;
+    height: 2em;
+    text-decoration: none;
+    color: rgb(102, 1, 102);
+    background-color: rgb(245, 245, 4);
+    padding: 8px;
+    margin: auto;
+    border-radius: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: large;
+}
+
+.container .login span {
+    text-transform: capitalize;
+    font-size: small;
+    text-align: center;
+}
+
+.container .login:last-child {
+    padding-bottom: 10px;
+}
